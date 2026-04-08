@@ -1,0 +1,38 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    animation-name: players;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* @keyframes players {
+    from {
+        background-color: orange;
+        transform: rotate(0deg) scale(6);
+        border-radius: 0%;
+    }
+    to {
+        background-color: orangered;
+        transform: rotate(360deg) scale(0.2);
+        border-radius: 50%;
+    }
+} */
+@keyframes players {
+    0% {
+        background-color: orange;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        background-color: purple;
+    }
+    75% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
